@@ -24,3 +24,5 @@ function checkPalindrome() {
   }
  
   document.getElementById('check-btn').addEventListener('click', checkPalindrome);
+
+  // I think we're set
