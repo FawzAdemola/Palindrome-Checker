@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+body{
+    background-color: purple;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    display: block;
+    height: 8vh;
+    width: 90%;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.container{
+    width: 55%;
+    height: 70%;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    height: 5vh;
+    width: 90%;
+    margin-bottom: 2em;
+    border-radius: 2em;
+    background-color:chartreuse;
+}
+
+button:hover{
+    color: white;
+}
+
+#result{
+    font-size: 1em;
+    color: blue;
+}
+
+p{
+    padding: 0.2em;
+}
